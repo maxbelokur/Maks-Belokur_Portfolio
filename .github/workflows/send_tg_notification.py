@@ -20,4 +20,4 @@ def send_message(message):
     else:
         print(f"❌ Ошибка при отправке: {response.text}")
 
-send_message("*Форматирование CSV успешно завершено!* \n\nИзменения загружены в репозиторий.")
+send_message("*Форматирование Books_database.CSV успешно завершено!* \n\nИзменения загружены в репозиторий в файл books_database_FORMATED.csv.")
