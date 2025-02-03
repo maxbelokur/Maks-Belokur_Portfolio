@@ -1,0 +1,39 @@
+name: Format CSV File and Notify Telegram
+
+on:
+  schedule:
+    - cron: '5 5 * * *' 
+  workflow_dispatch:
+
+jobs:
+  format_csv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install pandas requests
+
+      - name: Run formatting script
+        run: python .github/books_db_format_script.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add books_database_FORMATED
+          git commit -m "🔄 Formatted CSV file on $(date '+%Y-%m-%d')" || exit 0
+          git push
+
+      - name: Send Telegram Notification
+        run: python .github/workflows/send_tg_notification.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
