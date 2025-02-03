@@ -34,3 +34,9 @@ jobs:
           git push origin main 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+
+      - name: Send Telegram Notification
+        run: python .github/workflows/send_tg_notification.py "Обновление базы данныйх Books успешно завершено!"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
