@@ -1,7 +1,11 @@
+import os
 import pandas as pd
 
 input_file = ".github/books_database_main.csv"
 output_file = ".github/books_database_FORMATED.csv"
+
+if not os.path.exists(output_file):
+  pd.DataFrame().to_csv(output_file, index=False)
 
 df = pd.read_csv(input_file, sep=',')
 
