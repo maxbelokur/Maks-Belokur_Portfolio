@@ -1,5 +1,6 @@
 import requests
 import os
+import sys
 
 # Получаем переменные окружения из GitHub Secrets
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
