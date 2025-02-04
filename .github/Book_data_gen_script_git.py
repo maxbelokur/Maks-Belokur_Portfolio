@@ -4,7 +4,7 @@ import os
 import json
 from datetime import datetime, timedelta
 
-data_file = ".github/books_database_main.csv"
+data_file = ".github/books_data_main.csv"
 profiles_file = ".github//user_profiles.json"
 library_file = ".github//library.json"
 
