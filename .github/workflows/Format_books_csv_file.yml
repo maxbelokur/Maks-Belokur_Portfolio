@@ -1,9 +1,10 @@
 name: Format CSV File and Notify Telegram
 
 on:
-  schedule:
-    - cron: '15 5 * * *' 
-  workflow_dispatch:
+  workflow_run:
+    workflows: ["Update Book Data File"]
+    types:
+      - completed
 
 jobs:
   format_csv:
