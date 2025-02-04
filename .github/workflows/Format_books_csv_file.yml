@@ -5,6 +5,7 @@ on:
     workflows: ["Update Books Data File"]
     types:
       - completed
+    workflow_dispatch:
 
 jobs:
   format_csv:
