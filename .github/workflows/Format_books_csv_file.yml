@@ -2,7 +2,7 @@ name: Format CSV File and Notify Telegram
 
 on:
   schedule:
-    - cron: '5 5 * * *' 
+    - cron: '15 5 * * *' 
   workflow_dispatch:
 
 jobs:
