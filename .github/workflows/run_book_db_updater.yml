@@ -32,14 +32,14 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add .github/books_database_main.csv
-          git commit -m "🔄 Daily data update in books_database_main.csv $(date '+%Y-%m-%d')" || exit 0
+          git add .github/books_data_main.csv
+          git commit -m "🔄 Daily data update in books_data_main.csv $(date '+%Y-%m-%d')" || exit 0
           git push origin main 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
 
       - name: Send Telegram Notification
-        run: python .github/workflows/send_tg_notification.py "Обновление базы данныйх Books App успешно завершено! В файл books_database_main.csv добавлены данные за $(date '+%Y-%m-%d')."
+        run: python .github/workflows/send_tg_notification.py "Обновление базы данныйх Books App успешно завершено! В файл books_data_main.csv добавлены данные за $(date '+%Y-%m-%d')."
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
