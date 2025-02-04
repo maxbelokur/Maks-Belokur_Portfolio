@@ -2,8 +2,8 @@ name: Update Books Data File
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # Запуск каждый день в 12:00 UTC (15:00 по Москве)
-  workflow_dispatch:  # Позволяет запускать вручную
+    - cron: '0 5 * * *'
+  workflow_dispatch:
 
 jobs:
   update-data:
@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Доступ для push
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v4
