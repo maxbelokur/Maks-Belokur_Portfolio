@@ -32,7 +32,7 @@ jobs:
           git config --global user.email "actions@github.com"
           if [ -f .github/Books_store_app/books_data_FORMATED.csv ]; then
             git add .github/Books_store_app/books_data_FORMATED.csv
-            git commit -m "Файл Books_data_main.csv отформатирован в $(date '+%Y-%m-%d'). \nДанные записаны в books_data_FORMATED.csv" || exit 0
+            git commit -m "Файл Books_data_main.csv отформатирован в $(date '+%Y-%m-%d'). Данные записаны в books_data_FORMATED.csv" || exit 0
             git push
           else
             echo "Ошибка: файл books_data_FORMATED.csv не найден!"
@@ -40,7 +40,7 @@ jobs:
           fi
 
       - name: Send Telegram Notification
-        run: python .github/workflows/send_tg_notification.py "books_data_main.csv успешно отформатирован. \nФайл books_database_FORMATED.csv обновлен."
+        run: python .github/workflows/send_tg_notification.py "books_data_main.csv успешно отформатирован. Файл books_database_FORMATED.csv обновлен."
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
