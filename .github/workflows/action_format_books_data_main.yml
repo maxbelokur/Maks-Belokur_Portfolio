@@ -24,7 +24,7 @@ jobs:
         run: pip install pandas requests
 
       - name: Run formatting script
-        run: python .github/Books_store_app/books_db_format_script.py
+        run: python .github/Books_store_app/script_format_books_df.py
 
       - name: Commit and push changes
         run: |
