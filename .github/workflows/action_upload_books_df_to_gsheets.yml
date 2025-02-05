@@ -10,8 +10,10 @@ on:
 jobs:
   update-data:
     runs-on: ubuntu-latest
-
     steps:
+      - name: Sync System Time
+        run: sudo ntpdate time.google.com
+        
       - name: Checkout repository
         uses: actions/checkout@v3
 
