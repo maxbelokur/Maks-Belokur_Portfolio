@@ -4,9 +4,9 @@ import os
 import json
 from datetime import datetime, timedelta
 
-data_file = ".github/books_data_main.csv"
-profiles_file = ".github//user_profiles.json"
-library_file = ".github//library.json"
+data_file = ".github/Books_store_app/books_data_main.csv"
+profiles_file = ".github/Books_store_app/user_profiles.json"
+library_file = ".github/Books_store_app/library.json"
 
 cities = ["Москва", "Санкт-Петербург", "Новосибирск", "Екатеринбург", "Казань", "Нижний Новгород",
           "Челябинск", "Самара", "Омск", "Ростов-на-Дону", "Уфа", "Красноярск"]
@@ -17,6 +17,7 @@ book_types = ["audio", "reading"]
 purchase_types = ["monthly_subscription", "yearly_subscription", "one_time_purchase"]
 
 # Блок с функциями для генерации повторяющихся и новых ID пользователей с привязкой к устройству и городу.
+# После каждого запуска библиотека пополняется новыми пользователями.
 def load_user_profiles():
     if os.path.exists(profiles_file):
         with open(profiles_file, "r", encoding="utf-8") as f:
@@ -38,6 +39,7 @@ def get_or_create_user(user_profiles, existing_user_count):
     return user_id, profile["device"], profile["city"]
 
 # Блок с функциями для генерации повторяющихся и новых ID книг с привязкой по категориям.
+# После каждого запуска библиотека пополняется новыми книгами.
 def load_library():
     if os.path.exists(library_file):
         with open(library_file, "r", encoding="utf-8") as f:
