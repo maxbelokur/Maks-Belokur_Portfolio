@@ -1,29 +1,45 @@
 import os
-import json
+import pandas as pd
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
 
-# Загружаем учетные данные из файла, который был создан в GitHub Actions
+# Путь к CSV-файлу
+CSV_FILE_PATH = ".github/Books_store_app/books_data_FORMATED.csv"
+
+# Проверяем наличие CSV-файла
+if not os.path.exists(CSV_FILE_PATH):
+    raise FileNotFoundError(f"Файл {CSV_FILE_PATH} не найден! Проверьте путь к файлу.")
+
+# Загружаем учетные данные Google из GitHub Secrets
 GOOGLE_CREDENTIALS_FILE = "google_credentials.json"
 
 if not os.path.exists(GOOGLE_CREDENTIALS_FILE):
-    raise FileNotFoundError("Файл google_credentials.json не найден! Убедитесь, что он был создан в GitHub Actions.")
+    raise FileNotFoundError("Файл google_credentials.json не найден! Проверьте GitHub Secrets.")
 
-# Аутентификация с использованием учетных данных
-SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]  # Пример: доступ к Google Sheets
+# Аутентификация через сервисный аккаунт
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 credentials = Credentials.from_service_account_file(GOOGLE_CREDENTIALS_FILE, scopes=SCOPES)
 
-# Подключение к Google API (пример: работа с Google Sheets)
+# Подключение к Google Sheets API
 service = build("sheets", "v4", credentials=credentials)
 
-# ID Google Таблицы (замените на свой)
-SPREADSHEET_ID = "your_google_sheet_id"
+# ID вашей Google Таблицы (замените на свой)
+SPREADSHEET_ID = "1rSdrMjDxwAbpwvwYQ9WRUWSbw9d7g84uqtQdHRx_lKo"
 
-# Чтение данных из Google Sheets
+# Загружаем данные из CSV
+df = pd.read_csv(CSV_FILE_PATH)
+
+# Преобразуем DataFrame в список списков (Google Sheets API требует такой формат)
+values = [df.columns.tolist()] + df.values.tolist()
+
+# Обновление данных в Google Sheets (лист "Books_data_final")
+body = {"values": values}
 sheet = service.spreadsheets()
-result = sheet.values().get(spreadsheetId=SPREADSHEET_ID, range="Sheet1!A1:E10").execute()
-rows = result.get("values", [])
+sheet.values().update(
+    spreadsheetId=SPREADSHEET_ID,
+    range="Books_data_final!A1",
+    valueInputOption="RAW",
+    body=body,
+).execute()
 
-# Вывод данных
-for row in rows:
-    print(row)
+print(f"Данные из {CSV_FILE_PATH} успешно загружены в Google Sheets (лист 'Books_data_final')!")
