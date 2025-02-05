@@ -23,12 +23,11 @@ jobs:
       - name: Install dependencies
         run: pip install pandas requests google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
-      - name: Set up Google Credentials
-        run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > google_credentials.json
-
       - name: Run Google Sheet Upload Script
         run: python .github/Books_store_app/script_books_df_upload_to_gsheets.py
-
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          
       - name: Send Telegram Notification
         run: python .github/workflows/send_tg_notification.py "books_data_FORMATED.csv загружен в Google Sheets."
         env:
