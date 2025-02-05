@@ -6,18 +6,27 @@ on:
     types:
       - completed
   workflow_dispatch:
-
+  
 jobs:
-  update-sheet:
+  update-data:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        
-      - name: Install dependencies
-        run: pip install gspread pandas requests oauth2client
 
-      - name: Upload CSV to Google Sheets
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install pandas requests google-auth google-auth-oauthlib google-auth-httplib2 googleapiclient
+
+      - name: Set up Google Credentials
+        run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > google_credentials.json
+
+      - name: Run Google Sheet Upload Script
         run: python .github/Books_store_app/script_books_df_upload_to_gsheets.py
 
       - name: Send Telegram Notification
