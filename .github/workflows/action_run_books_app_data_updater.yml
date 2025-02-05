@@ -35,13 +35,13 @@ jobs:
           git add .github/Books_store_app/books_data_main.csv
           git add .github/Books_store_app/user_profiles.json
           git add .github/Books_store_app/library.json
-          git commit -m "Books_data: $(date '+%Y-%m-%d') - База данных обновлена успешно. \n Новые данные записаны в books_data_main.csv." || exit 0
+          git commit -m "Books_data: $(date '+%Y-%m-%d') - База данных обновлена успешно. Новые данные записаны в books_data_main.csv." || exit 0
           git push origin main 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
 
       - name: Send Telegram Notification
-        run: python .github/workflows/send_tg_notification.py "$(date '+%Y-%m-%d') обновление базы данных Books App успешно завершено! \nВ файл books_data_main.csv добавлены новые данные."
+        run: python .github/workflows/send_tg_notification.py "$(date '+%Y-%m-%d') обновление базы данных Books App успешно завершено! В файл books_data_main.csv добавлены новые данные."
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
