@@ -10,15 +10,18 @@ CSV_FILE_PATH = ".github/Books_store_app/books_data_FORMATED.csv"
 if not os.path.exists(CSV_FILE_PATH):
     raise FileNotFoundError(f"Файл {CSV_FILE_PATH} не найден! Проверьте путь к файлу.")
 
-# Загружаем учетные данные Google из GitHub Secrets
-GOOGLE_CREDENTIALS_FILE = "google_credentials.json"
+# Загружаем учетные данные из GitHub Secrets
+GOOGLE_CREDENTIALS_JSON = os.getenv("GOOGLE_CREDENTIALS")
 
-if not os.path.exists(GOOGLE_CREDENTIALS_FILE):
-    raise FileNotFoundError("Файл google_credentials.json не найден! Проверьте GitHub Secrets.")
+if not GOOGLE_CREDENTIALS_JSON:
+    raise ValueError("Переменная GOOGLE_CREDENTIALS не найдена! Проверьте GitHub Secrets.")
+
+# Преобразуем JSON-строку в словарь
+credentials_info = json.loads(GOOGLE_CREDENTIALS_JSON)
 
 # Аутентификация через сервисный аккаунт
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
-credentials = Credentials.from_service_account_file(GOOGLE_CREDENTIALS_FILE, scopes=SCOPES)
+credentials = Credentials.from_service_account_info(credentials_info, scopes=SCOPES)
 
 # Подключение к Google Sheets API
 service = build("sheets", "v4", credentials=credentials)
