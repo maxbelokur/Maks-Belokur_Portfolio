@@ -1,4 +1,5 @@
 import os
+import json
 import pandas as pd
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
@@ -33,7 +34,7 @@ SPREADSHEET_ID = "1rSdrMjDxwAbpwvwYQ9WRUWSbw9d7g84uqtQdHRx_lKo"
 df = pd.read_csv(CSV_FILE_PATH)
 
 # Преобразуем DataFrame в список списков (Google Sheets API требует такой формат)
-values = [df.columns.tolist()] + df.values.tolist()
+values = [df.columns.tolist()] + df.astype(str).values.tolist()
 
 # Обновление данных в Google Sheets (лист "Books_data_final")
 body = {"values": values}
