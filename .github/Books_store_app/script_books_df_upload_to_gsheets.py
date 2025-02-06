@@ -27,7 +27,7 @@ credentials = Credentials.from_service_account_info(credentials_info, scopes=SCO
 # Подключение к Google Sheets API
 service = build("sheets", "v4", credentials=credentials)
 
-# ID вашей Google Таблицы (замените на свой)
+# ID Google Таблицы
 SPREADSHEET_ID = "1rSdrMjDxwAbpwvwYQ9WRUWSbw9d7g84uqtQdHRx_lKo"
 
 # Загружаем данные из CSV
