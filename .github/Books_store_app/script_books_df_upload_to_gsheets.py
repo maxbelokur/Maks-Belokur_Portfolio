@@ -1,7 +1,8 @@
 import os
 import json
 import pandas as pd
-
+from google.oauth2.service_account import Credentials
+from googleapiclient.discovery import build
 
 # Путь к CSV-файлу
 CSV_FILE_PATH = ".github/Books_store_app/books_data_FORMATED.csv"
