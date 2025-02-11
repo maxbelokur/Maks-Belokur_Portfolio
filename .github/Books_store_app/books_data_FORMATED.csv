@@ -6020,3 +6020,136 @@ date,user_id,book_id,category,action,purchase_type,time_spent_minutes,purchase_p
 2025-02-10,3625,464,История,wishlist,one_time_purchase,0,0.0,reading,E-Reader,Челябинск
 2025-02-10,3626,1887,Научная литература,purchase,yearly_subscription,209,19.09,reading,E-Reader,Омск
 2025-02-10,3627,1889,Фэнтези,purchase,monthly_subscription,235,65.08,reading,iOS,Казань
+2025-02-11,1127,942,Психология,wishlist,one_time_purchase,0,0.0,reading,E-Reader,Казань
+2025-02-11,1226,692,Комикс,purchase,yearly_subscription,4,84.69,audio,Android,Самара
+2025-02-11,1234,1644,Роман,purchase,yearly_subscription,361,24.88,reading,Android,Новосибирск
+2025-02-11,1238,1516,Научная литература,wishlist,monthly_subscription,0,0.0,reading,E-Reader,Санкт-Петербург
+2025-02-11,1240,1621,Саморазвитие,wishlist,monthly_subscription,0,0.0,reading,iOS,Уфа
+2025-02-11,1243,219,Комикс,wishlist,monthly_subscription,0,0.0,audio,iOS,Санкт-Петербург
+2025-02-11,1339,1625,Фантастика,wishlist,one_time_purchase,0,0.0,reading,iOS,Челябинск
+2025-02-11,1348,1779,Проза,purchase,one_time_purchase,281,32.4,audio,iOS,Нижний Новгород
+2025-02-11,1399,1610,Классика,purchase,one_time_purchase,41,49.04,audio,iOS,Нижний Новгород
+2025-02-11,1423,1914,Бизнес,purchase,monthly_subscription,32,12.88,audio,iOS,Омск
+2025-02-11,1425,1900,Научная литература,wishlist,yearly_subscription,0,0.0,reading,iOS,Екатеринбург
+2025-02-11,1460,1708,Комикс,wishlist,yearly_subscription,0,0.0,reading,E-Reader,Казань
+2025-02-11,1480,887,Саморазвитие,purchase,monthly_subscription,236,14.31,reading,Android,Новосибирск
+2025-02-11,1536,1911,Саморазвитие,purchase,yearly_subscription,478,62.03,reading,Android,Санкт-Петербург
+2025-02-11,1605,1002,Саморазвитие,wishlist,monthly_subscription,0,0.0,audio,Android,Санкт-Петербург
+2025-02-11,1673,1817,Классика,wishlist,one_time_purchase,0,0.0,reading,E-Reader,Самара
+2025-02-11,1678,1327,Комикс,purchase,one_time_purchase,469,63.42,reading,iOS,Санкт-Петербург
+2025-02-11,1735,164,Фантастика,purchase,one_time_purchase,352,69.08,audio,iOS,Красноярск
+2025-02-11,1745,1674,Саморазвитие,wishlist,monthly_subscription,0,0.0,reading,Android,Красноярск
+2025-02-11,1762,1909,Научная литература,purchase,monthly_subscription,464,54.83,audio,iOS,Нижний Новгород
+2025-02-11,1764,1515,Научная литература,wishlist,yearly_subscription,0,0.0,reading,iOS,Челябинск
+2025-02-11,1781,1931,Научная литература,wishlist,yearly_subscription,0,0.0,reading,E-Reader,Красноярск
+2025-02-11,1827,163,Саморазвитие,wishlist,monthly_subscription,0,0.0,audio,iOS,Нижний Новгород
+2025-02-11,1847,947,Роман,wishlist,monthly_subscription,0,0.0,audio,Android,Москва
+2025-02-11,1849,1932,Фантастика,wishlist,one_time_purchase,0,0.0,reading,iOS,Омск
+2025-02-11,1910,1890,Комикс,purchase,yearly_subscription,86,25.67,reading,E-Reader,Казань
+2025-02-11,1912,265,Психология,wishlist,monthly_subscription,0,0.0,reading,E-Reader,Красноярск
+2025-02-11,2033,1898,История,wishlist,yearly_subscription,0,0.0,reading,Android,Омск
+2025-02-11,2036,1927,Классика,purchase,one_time_purchase,36,18.4,audio,iOS,Челябинск
+2025-02-11,2052,1910,Научная литература,wishlist,monthly_subscription,0,0.0,reading,E-Reader,Нижний Новгород
+2025-02-11,2095,1930,Фантастика,purchase,yearly_subscription,17,46.66,reading,E-Reader,Красноярск
+2025-02-11,2113,1896,Проза,wishlist,yearly_subscription,0,0.0,reading,Android,Ростов-на-Дону
+2025-02-11,2160,1895,Психология,purchase,one_time_purchase,284,93.82,reading,E-Reader,Челябинск
+2025-02-11,2181,207,Здоровье,purchase,monthly_subscription,401,74.39,reading,Android,Челябинск
+2025-02-11,2250,462,Здоровье,purchase,monthly_subscription,443,14.6,reading,Android,Новосибирск
+2025-02-11,2253,1921,Саморазвитие,wishlist,yearly_subscription,0,0.0,audio,iOS,Красноярск
+2025-02-11,2405,206,Детектив,purchase,monthly_subscription,148,85.3,reading,E-Reader,Челябинск
+2025-02-11,2486,1507,Детектив,purchase,yearly_subscription,8,12.45,audio,Android,Новосибирск
+2025-02-11,2519,727,Саморазвитие,purchase,monthly_subscription,269,27.86,audio,iOS,Самара
+2025-02-11,2553,1576,История,purchase,one_time_purchase,76,19.32,reading,E-Reader,Челябинск
+2025-02-11,2607,1915,Проза,purchase,monthly_subscription,131,68.41,reading,Android,Казань
+2025-02-11,2722,106,История,purchase,monthly_subscription,230,50.99,audio,iOS,Нижний Новгород
+2025-02-11,2749,395,Классика,purchase,monthly_subscription,395,48.35,audio,Android,Челябинск
+2025-02-11,2787,1149,Саморазвитие,purchase,monthly_subscription,419,5.96,audio,Android,Екатеринбург
+2025-02-11,2850,1906,Здоровье,purchase,one_time_purchase,29,26.98,reading,iOS,Москва
+2025-02-11,2857,465,Детектив,purchase,monthly_subscription,419,35.92,audio,iOS,Казань
+2025-02-11,2875,127,Классика,wishlist,one_time_purchase,0,0.0,audio,iOS,Уфа
+2025-02-11,2886,1499,История,purchase,yearly_subscription,189,72.59,reading,iOS,Москва
+2025-02-11,2893,1923,История,wishlist,yearly_subscription,0,0.0,reading,E-Reader,Омск
+2025-02-11,2944,1705,Детектив,wishlist,yearly_subscription,0,0.0,reading,iOS,Москва
+2025-02-11,2959,1880,Фантастика,purchase,one_time_purchase,356,44.69,audio,iOS,Новосибирск
+2025-02-11,2964,1117,Саморазвитие,wishlist,yearly_subscription,0,0.0,audio,iOS,Самара
+2025-02-11,2973,1052,Саморазвитие,purchase,yearly_subscription,121,81.94,reading,E-Reader,Ростов-на-Дону
+2025-02-11,3047,1903,Детектив,purchase,yearly_subscription,112,59.17,reading,E-Reader,Нижний Новгород
+2025-02-11,3059,803,Проза,wishlist,monthly_subscription,0,0.0,reading,iOS,Санкт-Петербург
+2025-02-11,3093,501,История,wishlist,yearly_subscription,0,0.0,audio,iOS,Уфа
+2025-02-11,3163,1101,Проза,purchase,yearly_subscription,468,16.6,reading,E-Reader,Омск
+2025-02-11,3167,1916,Научная литература,wishlist,one_time_purchase,0,0.0,audio,iOS,Самара
+2025-02-11,3168,702,Саморазвитие,wishlist,yearly_subscription,0,0.0,audio,iOS,Казань
+2025-02-11,3188,1918,Саморазвитие,wishlist,monthly_subscription,0,0.0,audio,Android,Новосибирск
+2025-02-11,3191,1224,Проза,wishlist,one_time_purchase,0,0.0,audio,iOS,Омск
+2025-02-11,3237,1754,Фантастика,purchase,monthly_subscription,406,20.34,reading,E-Reader,Ростов-на-Дону
+2025-02-11,3279,1919,Научная литература,wishlist,one_time_purchase,0,0.0,reading,E-Reader,Москва
+2025-02-11,3326,442,Фантастика,purchase,monthly_subscription,436,28.51,audio,Android,Самара
+2025-02-11,3347,1187,Классика,wishlist,yearly_subscription,0,0.0,audio,iOS,Уфа
+2025-02-11,3391,101,Детектив,wishlist,yearly_subscription,0,0.0,audio,iOS,Ростов-на-Дону
+2025-02-11,3410,1431,Научная литература,wishlist,one_time_purchase,0,0.0,reading,Android,Екатеринбург
+2025-02-11,3447,678,Роман,wishlist,one_time_purchase,0,0.0,reading,iOS,Ростов-на-Дону
+2025-02-11,3476,786,Бизнес,wishlist,one_time_purchase,0,0.0,reading,iOS,Челябинск
+2025-02-11,3497,1913,Фантастика,purchase,one_time_purchase,427,9.46,reading,Android,Ростов-на-Дону
+2025-02-11,3510,1272,Здоровье,purchase,yearly_subscription,22,59.82,reading,iOS,Красноярск
+2025-02-11,3522,1435,Классика,wishlist,yearly_subscription,0,0.0,reading,iOS,Казань
+2025-02-11,3557,1859,Психология,purchase,yearly_subscription,45,66.47,reading,Android,Уфа
+2025-02-11,3565,820,Фэнтези,wishlist,monthly_subscription,0,0.0,reading,E-Reader,Москва
+2025-02-11,3568,1288,Детектив,purchase,one_time_purchase,174,77.89,audio,iOS,Красноярск
+2025-02-11,3573,1899,Бизнес,purchase,monthly_subscription,293,37.86,audio,iOS,Челябинск
+2025-02-11,3574,1904,Здоровье,wishlist,monthly_subscription,0,0.0,reading,E-Reader,Москва
+2025-02-11,3590,1897,Фэнтези,wishlist,yearly_subscription,0,0.0,reading,iOS,Ростов-на-Дону
+2025-02-11,3597,1686,Классика,purchase,yearly_subscription,123,56.42,reading,Android,Омск
+2025-02-11,3620,914,Роман,wishlist,yearly_subscription,0,0.0,reading,Android,Санкт-Петербург
+2025-02-11,3628,682,Психология,wishlist,monthly_subscription,0,0.0,audio,iOS,Казань
+2025-02-11,3629,1346,Фантастика,purchase,monthly_subscription,249,48.45,reading,E-Reader,Самара
+2025-02-11,3630,1891,Классика,purchase,yearly_subscription,45,36.13,audio,Android,Челябинск
+2025-02-11,3631,1058,Бизнес,wishlist,one_time_purchase,0,0.0,audio,Android,Новосибирск
+2025-02-11,3632,1892,Роман,purchase,monthly_subscription,100,36.46,reading,iOS,Москва
+2025-02-11,3633,412,Фэнтези,purchase,one_time_purchase,376,91.43,audio,Android,Санкт-Петербург
+2025-02-11,3634,1306,Психология,purchase,monthly_subscription,396,74.54,reading,E-Reader,Ростов-на-Дону
+2025-02-11,3635,1893,Классика,purchase,yearly_subscription,161,24.51,audio,iOS,Ростов-на-Дону
+2025-02-11,3636,1894,Бизнес,wishlist,one_time_purchase,0,0.0,reading,E-Reader,Самара
+2025-02-11,3637,851,Психология,wishlist,one_time_purchase,0,0.0,reading,Android,Челябинск
+2025-02-11,3638,632,Роман,purchase,one_time_purchase,356,94.89,reading,Android,Санкт-Петербург
+2025-02-11,3639,1451,Бизнес,wishlist,yearly_subscription,0,0.0,reading,iOS,Самара
+2025-02-11,3640,1551,Фэнтези,purchase,yearly_subscription,317,22.19,reading,E-Reader,Челябинск
+2025-02-11,3641,1901,Саморазвитие,wishlist,one_time_purchase,0,0.0,audio,Android,Самара
+2025-02-11,3642,1808,Детектив,purchase,yearly_subscription,280,51.2,audio,iOS,Москва
+2025-02-11,3643,492,Саморазвитие,purchase,one_time_purchase,254,26.79,audio,iOS,Красноярск
+2025-02-11,3644,1902,Фантастика,wishlist,one_time_purchase,0,0.0,reading,Android,Омск
+2025-02-11,3645,1603,Здоровье,wishlist,yearly_subscription,0,0.0,reading,E-Reader,Новосибирск
+2025-02-11,3646,1905,Проза,purchase,monthly_subscription,348,22.97,audio,iOS,Красноярск
+2025-02-11,3647,1016,Психология,wishlist,monthly_subscription,0,0.0,audio,Android,Омск
+2025-02-11,3647,1920,Проза,purchase,monthly_subscription,286,5.11,reading,Android,Омск
+2025-02-11,3648,370,Классика,wishlist,monthly_subscription,0,0.0,reading,iOS,Москва
+2025-02-11,3649,1907,Саморазвитие,purchase,monthly_subscription,407,52.62,audio,iOS,Красноярск
+2025-02-11,3650,1908,Детектив,purchase,one_time_purchase,182,33.53,reading,E-Reader,Нижний Новгород
+2025-02-11,3651,1134,Психология,wishlist,monthly_subscription,0,0.0,reading,E-Reader,Челябинск
+2025-02-11,3652,1122,Психология,purchase,monthly_subscription,49,14.18,reading,iOS,Красноярск
+2025-02-11,3653,694,Бизнес,wishlist,one_time_purchase,0,0.0,audio,iOS,Москва
+2025-02-11,3654,1912,Саморазвитие,wishlist,yearly_subscription,0,0.0,reading,Android,Санкт-Петербург
+2025-02-11,3655,229,Психология,purchase,monthly_subscription,111,70.96,reading,Android,Казань
+2025-02-11,3656,1402,Научная литература,purchase,monthly_subscription,283,36.27,audio,iOS,Омск
+2025-02-11,3657,268,Психология,purchase,yearly_subscription,262,51.3,audio,Android,Уфа
+2025-02-11,3658,1517,Комикс,purchase,monthly_subscription,326,79.33,reading,Android,Казань
+2025-02-11,3659,1198,Классика,wishlist,monthly_subscription,0,0.0,audio,iOS,Новосибирск
+2025-02-11,3660,1916,Научная литература,purchase,yearly_subscription,152,36.35,reading,E-Reader,Казань
+2025-02-11,3661,1917,Роман,purchase,monthly_subscription,45,15.33,reading,iOS,Челябинск
+2025-02-11,3662,907,Классика,purchase,yearly_subscription,200,9.66,reading,E-Reader,Красноярск
+2025-02-11,3663,1212,Психология,wishlist,monthly_subscription,0,0.0,reading,Android,Казань
+2025-02-11,3664,486,Классика,wishlist,monthly_subscription,0,0.0,audio,iOS,Казань
+2025-02-11,3665,1922,Фантастика,purchase,yearly_subscription,120,8.85,reading,iOS,Уфа
+2025-02-11,3666,1924,Детектив,purchase,yearly_subscription,290,56.93,audio,iOS,Санкт-Петербург
+2025-02-11,3667,938,Фантастика,purchase,yearly_subscription,233,25.77,audio,iOS,Нижний Новгород
+2025-02-11,3668,704,Саморазвитие,wishlist,monthly_subscription,0,0.0,audio,Android,Красноярск
+2025-02-11,3669,887,Саморазвитие,wishlist,one_time_purchase,0,0.0,audio,iOS,Москва
+2025-02-11,3670,1189,Фэнтези,purchase,one_time_purchase,494,67.57,reading,E-Reader,Екатеринбург
+2025-02-11,3671,341,Научная литература,wishlist,monthly_subscription,0,0.0,reading,Android,Казань
+2025-02-11,3672,1925,Фэнтези,wishlist,one_time_purchase,0,0.0,reading,E-Reader,Ростов-на-Дону
+2025-02-11,3673,1926,Проза,wishlist,monthly_subscription,0,0.0,reading,E-Reader,Красноярск
+2025-02-11,3674,1928,Фэнтези,wishlist,yearly_subscription,0,0.0,audio,Android,Омск
+2025-02-11,3675,128,Проза,purchase,yearly_subscription,165,15.41,audio,Android,Екатеринбург
+2025-02-11,3676,160,Саморазвитие,purchase,monthly_subscription,38,61.89,reading,iOS,Челябинск
+2025-02-11,3677,1929,Психология,purchase,yearly_subscription,51,37.26,audio,iOS,Москва
+2025-02-11,3678,469,Комикс,purchase,one_time_purchase,67,47.98,reading,E-Reader,Санкт-Петербург
+2025-02-11,3679,1843,Фэнтези,purchase,yearly_subscription,268,30.59,reading,Android,Омск
