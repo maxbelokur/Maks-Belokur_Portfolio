@@ -5,7 +5,7 @@ from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
 
 # Путь к CSV-файлу
-CSV_FILE_PATH = ".github/Books_store_app/books_data_FORMATED.csv"
+CSV_FILE_PATH = "Python__Books_store_app/books_data_FORMATED.csv"
 
 # Проверяем наличие CSV-файла
 if not os.path.exists(CSV_FILE_PATH):
