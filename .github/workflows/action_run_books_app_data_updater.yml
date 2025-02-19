@@ -26,15 +26,15 @@ jobs:
         run: pip install pandas requests
 
       - name: Run update script
-        run: python .github/Books_store_app/script_gen_books_app_data.py
+        run: python Python__Books_store_app/script_gen_books_app_data.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add .github/Books_store_app/books_data_main.csv
-          git add .github/Books_store_app/user_profiles.json
-          git add .github/Books_store_app/library.json
+          git add Python__Books_store_app/books_data_main.csv
+          git add Python__Books_store_app/user_profiles.json
+          git add Python__Books_store_app/library.json
           git commit -m "Books_data: $(date '+%Y-%m-%d') - База данных обновлена успешно. Новые данные записаны в books_data_main.csv." || exit 0
           git push origin main 
         env:
