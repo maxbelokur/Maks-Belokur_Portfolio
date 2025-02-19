@@ -23,7 +23,7 @@ jobs:
         run: pip install pandas requests google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
       - name: Run Google Sheet Upload Script
-        run: python .github/Books_store_app/script_books_df_upload_to_gsheets.py
+        run: python Python__Books_store_app/script_books_df_upload_to_gsheets.py
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           
