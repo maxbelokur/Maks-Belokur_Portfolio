@@ -24,4 +24,7 @@ ______________________________________________________
 
   Датафрей: Online Retail (https://archive.ics.uci.edu/dataset/352/online+retail)
 
-Выполнение.
+Выполнение: Скрипт PostgreSQL__Online_retail/Online_retail_retention_cohort.sql
+Результат:
+![image](https://github.com/user-attachments/assets/6fd9bde1-c94e-422d-abd1-96776792008b)
+
