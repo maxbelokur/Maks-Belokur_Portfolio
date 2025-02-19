@@ -1,8 +1,8 @@
 import os
 import pandas as pd
 
-input_file = ".github/Books_store_app/books_data_main.csv"
-output_file = ".github/Books_store_app/books_data_FORMATED.csv"
+input_file = "Python__Books_store_app/books_data_main.csv"
+output_file = "Python__Books_store_app/books_data_FORMATED.csv"
 
 df = pd.read_csv(input_file, sep=',')
 
