@@ -6,7 +6,7 @@ ______________________________________________________
 ### **1. Online_retail: Анализ удержания клиентов | Retention Analysis** [/PostgreSQL__Online_retail](https://github.com/maxbelokur/Maks-Belokur_Portfolio/tree/main/PostgreSQL__Online_retail)
 Задачи:
 - Построить когортный анализ.
-- Определить долю пользователей, который веронулись после 30, 60 и 90 дней.
+- Определить долю пользователей, который вернулись после 30, 60 и 90 дней.
 
 _Датафрей: Online Retail (https://archive.ics.uci.edu/dataset/352/online+retail)_
 
