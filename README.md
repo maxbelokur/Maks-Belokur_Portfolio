@@ -14,4 +14,4 @@ ______________________________________________________
 - Построить когортный анализ
 - Определить долю пользователей, который веронулись после 30, 60 и 90 дней.
 
-* Датафрей: Online Retail (https://archive.ics.uci.edu/dataset/352/online+retail)
+Датафрей: Online Retail (https://archive.ics.uci.edu/dataset/352/online+retail)
