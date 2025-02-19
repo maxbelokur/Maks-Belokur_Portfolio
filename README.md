@@ -2,7 +2,7 @@
 ______________________________________________________
 ## Python.
 
-### **1. Book store app** [Python__Book_app_store/](https://github.com/maxbelokur/Maks-Belokur_Portfolio/tree/main/Python__Books_store_app):
+### **1. Book store app** [/Python__Book_app_store/](https://github.com/maxbelokur/Maks-Belokur_Portfolio/tree/main/Python__Books_store_app):
 #### Цель проекта: Создание базы данных для продуктового анализа и визуализации. 
 Задачи:
 - Создать скрипт для рандомного ежедневного пополнения базы данных онлайн магазина книг действиями существующих и новых клиентов.
@@ -16,9 +16,9 @@ ______________________________________________________
 3. Скрипт выгружает CSV файл в Google Sheets - **Python__Books_store_app/script_books_df_upload_to_gsh.py**
 4. Скрипты Git Action для запуска скриптов выше: .github/workflow/...  action_run_books_app_data_updater.yml => action_format_books_data_main.yml => action_upload_books_df_to_gsheets.yml
 5. Скрипт отправки уведомлений в Телеграм бот: .github/workflow/send_tg_notification.py
-6. Dashboard Tableu - https://public.tableau.com/app/profile/maksim.belokur/viz/Book_app_dashboarv_v_1/Dashboard1
+6. [Dashboard Tableu](https://public.tableau.com/app/profile/maksim.belokur/viz/Book_app_dashboarv_v_1/Dashboard1)
 
-### **2. Анализ результатов А/В-теста** [Python__ABtest_analysis/]():
+### **2. Анализ результатов А/В-теста** [/Python__ABtest_analysis/]():
 Задание:
 Имеются результаты A/B теста, в котором двум группам пользователей предлагались различные наборы акционных предложений. 
 Известно, что ARPU в тестовой группе выше на 5%, чем в контрольной. При этом в контрольной группе 1928 игроков из 202103 оказались платящими, а в тестовой – 1805 из 202667.
@@ -27,7 +27,7 @@ ______________________________________________________
 ______________________________________________________
 ## PostgreSQL
 
-### **1. Online_retail: Анализ удержания клиентов | Retention Analysis** [PostgreSQL__Online_retail](https://github.com/maxbelokur/Maks-Belokur_Portfolio/tree/main/PostgreSQL__Online_retail)
+### **1. Online_retail: Анализ удержания клиентов | Retention Analysis** [/PostgreSQL__Online_retail](https://github.com/maxbelokur/Maks-Belokur_Portfolio/tree/main/PostgreSQL__Online_retail)
 Задачи:
 - Построить когортный анализ.
 - Определить долю пользователей, который веронулись после 30, 60 и 90 дней.
