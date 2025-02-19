@@ -25,7 +25,7 @@ ______________________________________________________
 - Построить когортный анализ.
 - Определить долю пользователей, который веронулись после 30, 60 и 90 дней.
 
- _ Датафрей: Online Retail (https://archive.ics.uci.edu/dataset/352/online+retail)_
+_Датафрей: Online Retail (https://archive.ics.uci.edu/dataset/352/online+retail)_
 
 Выполнение: Скрипт PostgreSQL__Online_retail/Online_retail_retention_cohort.sql
 
