@@ -13050,5 +13050,213 @@
     "4263": {
         "device": "Android",
         "city": "Новосибирск"
+    },
+    "4264": {
+        "device": "E-Reader",
+        "city": "Казань"
+    },
+    "4265": {
+        "device": "E-Reader",
+        "city": "Москва"
+    },
+    "4266": {
+        "device": "iOS",
+        "city": "Санкт-Петербург"
+    },
+    "4267": {
+        "device": "Android",
+        "city": "Уфа"
+    },
+    "4268": {
+        "device": "E-Reader",
+        "city": "Ростов-на-Дону"
+    },
+    "4269": {
+        "device": "E-Reader",
+        "city": "Самара"
+    },
+    "4270": {
+        "device": "E-Reader",
+        "city": "Екатеринбург"
+    },
+    "4271": {
+        "device": "E-Reader",
+        "city": "Казань"
+    },
+    "4272": {
+        "device": "Android",
+        "city": "Санкт-Петербург"
+    },
+    "4273": {
+        "device": "iOS",
+        "city": "Санкт-Петербург"
+    },
+    "4274": {
+        "device": "Android",
+        "city": "Казань"
+    },
+    "4275": {
+        "device": "E-Reader",
+        "city": "Нижний Новгород"
+    },
+    "4276": {
+        "device": "E-Reader",
+        "city": "Нижний Новгород"
+    },
+    "4277": {
+        "device": "E-Reader",
+        "city": "Ростов-на-Дону"
+    },
+    "4278": {
+        "device": "iOS",
+        "city": "Нижний Новгород"
+    },
+    "4279": {
+        "device": "iOS",
+        "city": "Новосибирск"
+    },
+    "4280": {
+        "device": "E-Reader",
+        "city": "Омск"
+    },
+    "4281": {
+        "device": "E-Reader",
+        "city": "Уфа"
+    },
+    "4282": {
+        "device": "iOS",
+        "city": "Уфа"
+    },
+    "4283": {
+        "device": "E-Reader",
+        "city": "Нижний Новгород"
+    },
+    "4284": {
+        "device": "Android",
+        "city": "Уфа"
+    },
+    "4285": {
+        "device": "E-Reader",
+        "city": "Новосибирск"
+    },
+    "4286": {
+        "device": "E-Reader",
+        "city": "Москва"
+    },
+    "4287": {
+        "device": "iOS",
+        "city": "Казань"
+    },
+    "4288": {
+        "device": "iOS",
+        "city": "Екатеринбург"
+    },
+    "4289": {
+        "device": "iOS",
+        "city": "Самара"
+    },
+    "4290": {
+        "device": "E-Reader",
+        "city": "Красноярск"
+    },
+    "4291": {
+        "device": "iOS",
+        "city": "Челябинск"
+    },
+    "4292": {
+        "device": "Android",
+        "city": "Уфа"
+    },
+    "4293": {
+        "device": "iOS",
+        "city": "Москва"
+    },
+    "4294": {
+        "device": "E-Reader",
+        "city": "Нижний Новгород"
+    },
+    "4295": {
+        "device": "iOS",
+        "city": "Красноярск"
+    },
+    "4296": {
+        "device": "E-Reader",
+        "city": "Уфа"
+    },
+    "4297": {
+        "device": "iOS",
+        "city": "Самара"
+    },
+    "4298": {
+        "device": "iOS",
+        "city": "Екатеринбург"
+    },
+    "4299": {
+        "device": "iOS",
+        "city": "Челябинск"
+    },
+    "4300": {
+        "device": "E-Reader",
+        "city": "Новосибирск"
+    },
+    "4301": {
+        "device": "iOS",
+        "city": "Ростов-на-Дону"
+    },
+    "4302": {
+        "device": "Android",
+        "city": "Красноярск"
+    },
+    "4303": {
+        "device": "Android",
+        "city": "Уфа"
+    },
+    "4304": {
+        "device": "Android",
+        "city": "Ростов-на-Дону"
+    },
+    "4305": {
+        "device": "E-Reader",
+        "city": "Санкт-Петербург"
+    },
+    "4306": {
+        "device": "E-Reader",
+        "city": "Омск"
+    },
+    "4307": {
+        "device": "E-Reader",
+        "city": "Красноярск"
+    },
+    "4308": {
+        "device": "E-Reader",
+        "city": "Уфа"
+    },
+    "4309": {
+        "device": "Android",
+        "city": "Москва"
+    },
+    "4310": {
+        "device": "Android",
+        "city": "Екатеринбург"
+    },
+    "4311": {
+        "device": "E-Reader",
+        "city": "Красноярск"
+    },
+    "4312": {
+        "device": "iOS",
+        "city": "Казань"
+    },
+    "4313": {
+        "device": "Android",
+        "city": "Омск"
+    },
+    "4314": {
+        "device": "iOS",
+        "city": "Красноярск"
+    },
+    "4315": {
+        "device": "Android",
+        "city": "Ростов-на-Дону"
     }
 }
