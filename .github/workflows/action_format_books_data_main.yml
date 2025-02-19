@@ -24,14 +24,14 @@ jobs:
         run: pip install pandas requests
 
       - name: Run formatting script
-        run: python .github/Books_store_app/script_format_books_df.py
+        run: python Python__Books_store_app/script_format_books_df.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          if [ -f .github/Books_store_app/books_data_FORMATED.csv ]; then
-            git add .github/Books_store_app/books_data_FORMATED.csv
+          if [ -f Python__Books_store_app/books_data_FORMATED.csv ]; then
+            git add Python__Books_store_app/books_data_FORMATED.csv
             git commit -m "Файл Books_data_main.csv отформатирован в $(date '+%Y-%m-%d'). Данные записаны в books_data_FORMATED.csv" || exit 0
             git push
           else
