@@ -4,9 +4,9 @@ import os
 import json
 from datetime import datetime, timedelta
 
-data_file = ".github/Books_store_app/books_data_main.csv"
-profiles_file = ".github/Books_store_app/user_profiles.json"
-library_file = ".github/Books_store_app/library.json"
+data_file = "Python__Books_store_app/books_data_main.csv"
+profiles_file = "Python__Books_store_app/user_profiles.json"
+library_file = "Python__Books_store_app/library.json"
 
 cities = ["Москва", "Санкт-Петербург", "Новосибирск", "Екатеринбург", "Казань", "Нижний Новгород",
           "Челябинск", "Самара", "Омск", "Ростов-на-Дону", "Уфа", "Красноярск"]
