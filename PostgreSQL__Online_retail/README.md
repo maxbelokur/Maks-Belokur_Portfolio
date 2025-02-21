@@ -17,4 +17,12 @@ _Датафрей: Online Retail (https://archive.ics.uci.edu/dataset/352/online
     Результат:
    ![image](https://github.com/user-attachments/assets/449aa360-dbd0-4d29-bce4-b69cea8f03d1)
 
+3. Определить уникальных активных пользователей за день (DAU) для каждой недели в 2011 году.
+    Скрипт - [online_retail_dau_weekdays.sql]()
+
+    Результат:
+   ![image](https://github.com/user-attachments/assets/4200fa4b-957f-482f-9828-bd9f7b5e66c6)
+   - - - - - - - - - - - - - - - - - - - - - - 
+   ![image](https://github.com/user-attachments/assets/38074428-7f6f-4290-960b-dba01ac5c4b5)
+
    
