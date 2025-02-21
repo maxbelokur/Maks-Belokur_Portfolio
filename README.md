@@ -3,7 +3,7 @@
 ______________________________________________________
 ## PostgreSQL
 
-### **1. Online_retail: Продуктовый анализ данный онлайн ретайла** [/PostgreSQL__Online_retail/](https://github.com/maxbelokur/Maks-Belokur_Portfolio/tree/main/PostgreSQL__Online_retail)
+### **1. Online_retail: Продуктовый анализ данных онлайн ретайла.** [/PostgreSQL__Online_retail/](https://github.com/maxbelokur/Maks-Belokur_Portfolio/tree/main/PostgreSQL__Online_retail)
 _Датафрей: Online Retail (https://archive.ics.uci.edu/dataset/352/online+retail)_
 
 Задачи:
