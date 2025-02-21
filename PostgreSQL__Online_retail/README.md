@@ -11,7 +11,7 @@ _Датафрей: Online Retail (https://archive.ics.uci.edu/dataset/352/online
     ![image](https://github.com/user-attachments/assets/6fd9bde1-c94e-422d-abd1-96776792008b)
 
 
-2. Определите среднее количество уникальных активных пользователей за день (DAU) и за месяц (MAU). => [online_retail_dau_mau.sql](https://github.com/maxbelokur/Maks-Belokur_Portfolio/blob/main/PostgreSQL__Online_retail/online_retail_dau_mau.sql)
+2. Определите среднее количество уникальных активных пользователей за день (DAU) и за месяц (MAU).
     Скрипт - [online_retail_dau_mau.sql](https://github.com/maxbelokur/Maks-Belokur_Portfolio/blob/main/PostgreSQL__Online_retail/online_retail_dau_mau.sql)
 
     Результат:
