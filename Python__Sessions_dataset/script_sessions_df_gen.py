@@ -36,4 +36,6 @@ df = pd.DataFrame({
     'funnel_level_4': level_4,
     'funnel_level_5': level_5
 })
-df.to_csv('.github/Python__sessions_dataset/sessions_dataset.csv')
+
+# Запись получившегося датасета в CSV файл.
+df.to_csv('.github/Python__sessions_dataset/sessions_dataset.csv' , sep=';', index=False)
