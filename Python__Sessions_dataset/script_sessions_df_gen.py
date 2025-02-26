@@ -20,11 +20,11 @@ session_end = session_start + pd.to_timedelta(np.random.randint(1, 1000, num_ses
 devices = ['iOS', 'Android', 'Chrome', 'InternetExplorer', 'YandexBrowser']
 
 # Симуляция воронки.
-level_1 = np.random.choice([1, 0], size=num_sessions, p=[0.9, 0.1])  # 90% reach level 1
-level_2 = np.where(level_1 == 1, np.random.choice([1, 0], size=num_sessions, p=[0.82, 0.18]), 0)  # 70% of L1 reach L2
-level_3 = np.where(level_2 == 1, np.random.choice([1, 0], size=num_sessions, p=[0.63, 0.37]), 0)  # 50% of L2 reach L3
-level_4 = np.where(level_3 == 1, np.random.choice([1, 0], size=num_sessions, p=[0.5, 0.5]), 0)  # 30% of L3 reach L4
-level_5 = np.where(level_4 == 1, np.random.choice([1, 0], size=num_sessions, p=[0.33, 0.67]), 0)  # 20% of L4 reach L5
+level_1 = np.random.choice([1, 0], size=num_sessions, p=[0.9, 0.1])
+level_2 = np.where(level_1 == 1, np.random.choice([1, 0], size=num_sessions, p=[0.82, 0.18]), 0)
+level_3 = np.where(level_2 == 1, np.random.choice([1, 0], size=num_sessions, p=[0.63, 0.37]), 0)
+level_4 = np.where(level_3 == 1, np.random.choice([1, 0], size=num_sessions, p=[0.5, 0.5]), 0)
+level_5 = np.where(level_4 == 1, np.random.choice([1, 0], size=num_sessions, p=[0.33, 0.67]), 0)
 
 # Сведение данных в датафрейм.
 df = pd.DataFrame({
