@@ -32006,5 +32006,205 @@
     "9002": {
         "device": "E-Reader",
         "city": "Москва"
+    },
+    "9003": {
+        "device": "iOS",
+        "city": "Нижний Новгород"
+    },
+    "9004": {
+        "device": "E-Reader",
+        "city": "Самара"
+    },
+    "9005": {
+        "device": "iOS",
+        "city": "Санкт-Петербург"
+    },
+    "9006": {
+        "device": "E-Reader",
+        "city": "Красноярск"
+    },
+    "9007": {
+        "device": "E-Reader",
+        "city": "Ростов-на-Дону"
+    },
+    "9008": {
+        "device": "iOS",
+        "city": "Красноярск"
+    },
+    "9009": {
+        "device": "iOS",
+        "city": "Нижний Новгород"
+    },
+    "9010": {
+        "device": "Android",
+        "city": "Омск"
+    },
+    "9011": {
+        "device": "Android",
+        "city": "Москва"
+    },
+    "9012": {
+        "device": "iOS",
+        "city": "Нижний Новгород"
+    },
+    "9013": {
+        "device": "Android",
+        "city": "Красноярск"
+    },
+    "9014": {
+        "device": "E-Reader",
+        "city": "Челябинск"
+    },
+    "9015": {
+        "device": "iOS",
+        "city": "Омск"
+    },
+    "9016": {
+        "device": "Android",
+        "city": "Санкт-Петербург"
+    },
+    "9017": {
+        "device": "E-Reader",
+        "city": "Челябинск"
+    },
+    "9018": {
+        "device": "iOS",
+        "city": "Ростов-на-Дону"
+    },
+    "9019": {
+        "device": "E-Reader",
+        "city": "Уфа"
+    },
+    "9020": {
+        "device": "Android",
+        "city": "Москва"
+    },
+    "9021": {
+        "device": "E-Reader",
+        "city": "Москва"
+    },
+    "9022": {
+        "device": "Android",
+        "city": "Санкт-Петербург"
+    },
+    "9023": {
+        "device": "Android",
+        "city": "Санкт-Петербург"
+    },
+    "9024": {
+        "device": "Android",
+        "city": "Санкт-Петербург"
+    },
+    "9025": {
+        "device": "iOS",
+        "city": "Новосибирск"
+    },
+    "9026": {
+        "device": "iOS",
+        "city": "Санкт-Петербург"
+    },
+    "9027": {
+        "device": "E-Reader",
+        "city": "Самара"
+    },
+    "9028": {
+        "device": "Android",
+        "city": "Казань"
+    },
+    "9029": {
+        "device": "Android",
+        "city": "Екатеринбург"
+    },
+    "9030": {
+        "device": "Android",
+        "city": "Челябинск"
+    },
+    "9031": {
+        "device": "E-Reader",
+        "city": "Самара"
+    },
+    "9032": {
+        "device": "Android",
+        "city": "Нижний Новгород"
+    },
+    "9033": {
+        "device": "iOS",
+        "city": "Уфа"
+    },
+    "9034": {
+        "device": "iOS",
+        "city": "Москва"
+    },
+    "9035": {
+        "device": "E-Reader",
+        "city": "Ростов-на-Дону"
+    },
+    "9036": {
+        "device": "E-Reader",
+        "city": "Челябинск"
+    },
+    "9037": {
+        "device": "Android",
+        "city": "Москва"
+    },
+    "9038": {
+        "device": "E-Reader",
+        "city": "Санкт-Петербург"
+    },
+    "9039": {
+        "device": "iOS",
+        "city": "Екатеринбург"
+    },
+    "9040": {
+        "device": "E-Reader",
+        "city": "Самара"
+    },
+    "9041": {
+        "device": "E-Reader",
+        "city": "Москва"
+    },
+    "9042": {
+        "device": "Android",
+        "city": "Новосибирск"
+    },
+    "9043": {
+        "device": "iOS",
+        "city": "Самара"
+    },
+    "9044": {
+        "device": "E-Reader",
+        "city": "Челябинск"
+    },
+    "9045": {
+        "device": "Android",
+        "city": "Санкт-Петербург"
+    },
+    "9046": {
+        "device": "Android",
+        "city": "Ростов-на-Дону"
+    },
+    "9047": {
+        "device": "E-Reader",
+        "city": "Новосибирск"
+    },
+    "9048": {
+        "device": "Android",
+        "city": "Нижний Новгород"
+    },
+    "9049": {
+        "device": "Android",
+        "city": "Санкт-Петербург"
+    },
+    "9050": {
+        "device": "iOS",
+        "city": "Уфа"
+    },
+    "9051": {
+        "device": "E-Reader",
+        "city": "Уфа"
+    },
+    "9052": {
+        "device": "iOS",
+        "city": "Красноярск"
     }
 }
