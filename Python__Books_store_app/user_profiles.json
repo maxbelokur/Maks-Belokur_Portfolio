@@ -37754,5 +37754,301 @@
     "10439": {
         "device": "E-Reader",
         "city": "Ростов-на-Дону"
+    },
+    "10440": {
+        "device": "iOS",
+        "city": "Уфа"
+    },
+    "10441": {
+        "device": "Android",
+        "city": "Челябинск"
+    },
+    "10442": {
+        "device": "Android",
+        "city": "Омск"
+    },
+    "10443": {
+        "device": "iOS",
+        "city": "Москва"
+    },
+    "10444": {
+        "device": "Android",
+        "city": "Екатеринбург"
+    },
+    "10445": {
+        "device": "Android",
+        "city": "Челябинск"
+    },
+    "10446": {
+        "device": "iOS",
+        "city": "Новосибирск"
+    },
+    "10447": {
+        "device": "iOS",
+        "city": "Уфа"
+    },
+    "10448": {
+        "device": "E-Reader",
+        "city": "Новосибирск"
+    },
+    "10449": {
+        "device": "E-Reader",
+        "city": "Казань"
+    },
+    "10450": {
+        "device": "E-Reader",
+        "city": "Нижний Новгород"
+    },
+    "10451": {
+        "device": "E-Reader",
+        "city": "Казань"
+    },
+    "10452": {
+        "device": "iOS",
+        "city": "Москва"
+    },
+    "10453": {
+        "device": "E-Reader",
+        "city": "Новосибирск"
+    },
+    "10454": {
+        "device": "iOS",
+        "city": "Омск"
+    },
+    "10455": {
+        "device": "E-Reader",
+        "city": "Новосибирск"
+    },
+    "10456": {
+        "device": "iOS",
+        "city": "Нижний Новгород"
+    },
+    "10457": {
+        "device": "iOS",
+        "city": "Ростов-на-Дону"
+    },
+    "10458": {
+        "device": "iOS",
+        "city": "Санкт-Петербург"
+    },
+    "10459": {
+        "device": "Android",
+        "city": "Нижний Новгород"
+    },
+    "10460": {
+        "device": "E-Reader",
+        "city": "Москва"
+    },
+    "10461": {
+        "device": "iOS",
+        "city": "Челябинск"
+    },
+    "10462": {
+        "device": "E-Reader",
+        "city": "Челябинск"
+    },
+    "10463": {
+        "device": "E-Reader",
+        "city": "Санкт-Петербург"
+    },
+    "10464": {
+        "device": "Android",
+        "city": "Нижний Новгород"
+    },
+    "10465": {
+        "device": "iOS",
+        "city": "Красноярск"
+    },
+    "10466": {
+        "device": "iOS",
+        "city": "Челябинск"
+    },
+    "10467": {
+        "device": "Android",
+        "city": "Омск"
+    },
+    "10468": {
+        "device": "E-Reader",
+        "city": "Екатеринбург"
+    },
+    "10469": {
+        "device": "Android",
+        "city": "Новосибирск"
+    },
+    "10470": {
+        "device": "iOS",
+        "city": "Омск"
+    },
+    "10471": {
+        "device": "E-Reader",
+        "city": "Уфа"
+    },
+    "10472": {
+        "device": "iOS",
+        "city": "Екатеринбург"
+    },
+    "10473": {
+        "device": "iOS",
+        "city": "Красноярск"
+    },
+    "10474": {
+        "device": "Android",
+        "city": "Новосибирск"
+    },
+    "10475": {
+        "device": "Android",
+        "city": "Красноярск"
+    },
+    "10476": {
+        "device": "iOS",
+        "city": "Самара"
+    },
+    "10477": {
+        "device": "E-Reader",
+        "city": "Красноярск"
+    },
+    "10478": {
+        "device": "E-Reader",
+        "city": "Москва"
+    },
+    "10479": {
+        "device": "Android",
+        "city": "Новосибирск"
+    },
+    "10480": {
+        "device": "iOS",
+        "city": "Самара"
+    },
+    "10481": {
+        "device": "Android",
+        "city": "Екатеринбург"
+    },
+    "10482": {
+        "device": "iOS",
+        "city": "Самара"
+    },
+    "10483": {
+        "device": "iOS",
+        "city": "Уфа"
+    },
+    "10484": {
+        "device": "E-Reader",
+        "city": "Новосибирск"
+    },
+    "10485": {
+        "device": "E-Reader",
+        "city": "Омск"
+    },
+    "10486": {
+        "device": "iOS",
+        "city": "Ростов-на-Дону"
+    },
+    "10487": {
+        "device": "Android",
+        "city": "Новосибирск"
+    },
+    "10488": {
+        "device": "E-Reader",
+        "city": "Нижний Новгород"
+    },
+    "10489": {
+        "device": "iOS",
+        "city": "Челябинск"
+    },
+    "10490": {
+        "device": "iOS",
+        "city": "Самара"
+    },
+    "10491": {
+        "device": "E-Reader",
+        "city": "Санкт-Петербург"
+    },
+    "10492": {
+        "device": "iOS",
+        "city": "Ростов-на-Дону"
+    },
+    "10493": {
+        "device": "iOS",
+        "city": "Челябинск"
+    },
+    "10494": {
+        "device": "iOS",
+        "city": "Красноярск"
+    },
+    "10495": {
+        "device": "Android",
+        "city": "Новосибирск"
+    },
+    "10496": {
+        "device": "E-Reader",
+        "city": "Екатеринбург"
+    },
+    "10497": {
+        "device": "iOS",
+        "city": "Новосибирск"
+    },
+    "10498": {
+        "device": "E-Reader",
+        "city": "Челябинск"
+    },
+    "10499": {
+        "device": "Android",
+        "city": "Казань"
+    },
+    "10500": {
+        "device": "Android",
+        "city": "Челябинск"
+    },
+    "10501": {
+        "device": "Android",
+        "city": "Челябинск"
+    },
+    "10502": {
+        "device": "iOS",
+        "city": "Уфа"
+    },
+    "10503": {
+        "device": "E-Reader",
+        "city": "Омск"
+    },
+    "10504": {
+        "device": "Android",
+        "city": "Красноярск"
+    },
+    "10505": {
+        "device": "iOS",
+        "city": "Москва"
+    },
+    "10506": {
+        "device": "iOS",
+        "city": "Самара"
+    },
+    "10507": {
+        "device": "iOS",
+        "city": "Самара"
+    },
+    "10508": {
+        "device": "iOS",
+        "city": "Омск"
+    },
+    "10509": {
+        "device": "Android",
+        "city": "Нижний Новгород"
+    },
+    "10510": {
+        "device": "Android",
+        "city": "Нижний Новгород"
+    },
+    "10511": {
+        "device": "E-Reader",
+        "city": "Нижний Новгород"
+    },
+    "10512": {
+        "device": "Android",
+        "city": "Уфа"
+    },
+    "10513": {
+        "device": "iOS",
+        "city": "Самара"
     }
 }
